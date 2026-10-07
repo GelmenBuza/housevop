@@ -1,0 +1,51 @@
+.footer {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 60px 10%;
+
+    background-color: #2D343C;
+
+    font-family: Raleway-regular, sans-serif;
+
+    .Logo {
+    }
+
+    .footerNav {
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            list-style-type: none;
+
+            .listElement {
+                color: #FFF;
+                font-size: 14px;
+
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+
+
+    .socialMedia {
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            list-style-type: none;
+        }
+    }
+
+
+}
+

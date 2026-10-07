@@ -1,0 +1,24 @@
+.header {
+    background-color: transparent;
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    font-family: Raleway-regular, sans-serif;
+    .nav {
+
+        .list {
+            list-style-type: none;
+
+            .listElement {
+
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
