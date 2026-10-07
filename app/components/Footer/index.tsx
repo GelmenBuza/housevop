@@ -25,9 +25,11 @@ export default function Footer() {
             <div className={styles.footerNav}>
                 <ul className={styles.list}>
                     <li className={styles.listElement}>Адрес: <Link href='#'>Наб. реки Фонтанки 10-15</Link></li>
-                    <li className={styles.listElement}><Link href='tel:+78121234567'>Телефон: 8 (812) 123-45-67</Link></li>
+                    <li className={styles.listElement}><Link href='tel:+78121234567'>Телефон: 8 (812) 123-45-67</Link>
+                    </li>
                     <li className={styles.listElement}>Отдел продаж: 10:00 - 20:00</li>
-                    <li className={styles.listElement}>E-mail: <Link href='mailto:vip@housevip.ru'>vip@housevip.ru</Link></li>
+                    <li className={styles.listElement}>E-mail: <Link
+                        href='mailto:vip@housevip.ru'>vip@housevip.ru</Link></li>
                     <li className={styles.socialMedia}>
                         <ul>
                             <li><Link href='#'><Image src={YT} alt='YouTube'></Image></Link></li>

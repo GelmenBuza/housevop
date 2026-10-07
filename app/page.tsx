@@ -1,7 +1,11 @@
+import NearSection from "./components/NearSection";
+import StartSection from "./components/StartSection";
+
 export default function Home() {
     return (
-        <div>
-
-        </div>
+        <main>
+            <StartSection/>
+            <NearSection/>
+        </main>
     );
 }

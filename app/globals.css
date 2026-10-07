@@ -6,10 +6,17 @@
     src: url('assets/fonts/Raleway-Regular.ttf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: PlayfairDisplay-Bold;
     src: url('assets/fonts/PlayfairDisplay-Bold.ttf');
     font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url('assets/fonts/Roboto-Light.ttf');
+    font-weight: 300;
 }
 
 * {
