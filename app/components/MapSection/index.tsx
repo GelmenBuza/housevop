@@ -4,14 +4,16 @@ export default function MapSection() {
 
     return (
         <section className={styles.section}>
-            <h2 className={styles.title}>
-                Район на карте
-            </h2>
+            <div className={styles.container}>
+                <h2 className={styles.title}>
+                    Район на карте
+                </h2>
 
-            <div className={styles.map}>
+                <div className={styles.map}>
                 <span>
                     Тут очень крутая карта
                 </span>
+                </div>
             </div>
         </section>
     )
