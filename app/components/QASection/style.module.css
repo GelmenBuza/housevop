@@ -1,0 +1,58 @@
+.section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    background-color: #242B33;
+
+    padding: 0 200px 180px 200px;
+
+    h2 {
+        color: #D4C17F;
+
+        font-family: PlayfairDisplay-Bold, sans-serif;
+
+        font-size: 36px;
+    }
+
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        * {
+            width: 255px;
+            height: 50px;
+        }
+
+        label {
+            background-color: rgb(255 255 255 / 0.2);
+
+            input {
+                border: none;
+                outline: none;
+                background: transparent;
+
+                color: #BEBEBE;
+                font-size: 14px;
+
+                text-align: center;
+            }
+        }
+
+        p {
+            font-size: 13px;
+
+            color: #E7E7E7;
+        }
+
+        button {
+            background-color: #D4C17F;
+            border: none;
+
+            font-family: Raleway-bold, sans-serif;
+        }
+    }
+}

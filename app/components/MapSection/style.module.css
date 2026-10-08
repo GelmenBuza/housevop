@@ -1,0 +1,27 @@
+.section {
+    width: 100%;
+    min-height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    background-color: #242B33;
+
+    padding: 0 200px 180px 200px;
+
+    h2 {
+        color: #D4C17F;
+
+        font-family: PlayfairDisplay-Bold, sans-serif;
+
+        font-size: 36px;
+    }
+
+    .map {
+        width: 100%;
+        min-height: 360px;
+        background-color: #626262;
+    }
+
+}
