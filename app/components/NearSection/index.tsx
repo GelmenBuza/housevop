@@ -6,7 +6,7 @@ import fountain from '@/app/assets/images/fountain.svg'
 import bicycle from '@/app/assets/images/bicycle.svg'
 
 
-export default function StartSection() {
+export default function NearSection() {
 
     return (
         <section className={styles.section}>

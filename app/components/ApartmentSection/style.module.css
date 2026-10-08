@@ -1,0 +1,74 @@
+.section {
+    width: 100%;
+
+    background-color: #242B33;
+
+    font-family: Raleway-regular, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 100px;
+
+        h2 {
+            color: #D4C17F;
+
+            font-family: PlayfairDisplay-Bold, sans-serif;
+            font-size: 36px;
+        }
+
+        .apartments {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            gap: 30px;
+
+            .apartment {
+
+                width: 535px;
+                height: fit-content;
+
+                position: relative;
+
+                .bg {
+                    width: 100%;
+                    height: 100%;
+
+                    position: absolute;
+
+                    inset: 0;
+
+                    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+
+
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                p {
+                    position: absolute;
+
+                    bottom: 50px;
+                    left: 50px;
+
+                }
+            }
+
+        }
+    }
+}
