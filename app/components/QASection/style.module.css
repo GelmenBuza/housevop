@@ -12,6 +12,12 @@
     align-items: center;
 
     .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 20px;
 
         h2 {
             color: #D4C17F;
@@ -25,6 +31,10 @@
             display: flex;
             flex-wrap: wrap;
             gap: 30px;
+
+            justify-content: center;
+            align-items: center;
+
 
             * {
                 width: 255px;
@@ -59,5 +69,11 @@
                 font-family: Raleway-bold, sans-serif;
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 0 0 45px 0 !important;
     }
 }

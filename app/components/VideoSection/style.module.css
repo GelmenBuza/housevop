@@ -12,7 +12,8 @@
 
     .video {
         width: 720px;
-        height: 650px;
+        aspect-ratio: 72/65;
+
         position: relative;
 
         img {
@@ -33,9 +34,20 @@
             background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8));
 
             img {
-                width: 100px;
-                height: 100px;
+                width: 20%;
+                height: 20%;
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        min-height: 350px !important;
+        padding: 0 0 45px 0 !important;
+    }
+
+    .video {
+        width: 80% !important;
     }
 }

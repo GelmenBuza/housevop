@@ -13,16 +13,27 @@
 
     position: relative;
 
+    background-color: #242B33;
+
+
     .imageContainer {
         position: absolute;
         z-index: -1;
 
         width: 100%;
         height: 100%;
+        /*aspect-ratio: 24/7;*/
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        overflow: hidden;
 
         img {
-            width: 100%;
-            height: 100%;
+            width: 1920px;
+            height: 560px;
         }
     }
 
@@ -101,5 +112,20 @@
                 font-family: Raleway-bold, sans-serif;
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .imageContainer {
+        height: 100% !important;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .text, .form {
+        width: 80% !important;
     }
 }

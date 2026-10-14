@@ -10,9 +10,16 @@
         width: 100%;
         height: 100%;
 
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        overflow: hidden;
+
         img {
-            width: 100%;
-            height: 100%;
+            width: 1920px;
+            height: 840px;
         }
     }
 
@@ -65,6 +72,11 @@
             }
         }
     }
+}
 
-
+@media (max-width: 768px) {
+    .info {
+        gap: 1rem !important;
+        flex-direction: column;
+    }
 }
