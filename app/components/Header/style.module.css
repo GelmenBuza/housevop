@@ -13,6 +13,11 @@
     font-family: Raleway-regular, sans-serif;
 
     .nav {
+        position: relative;
+
+        .burgerBtn {
+            display: none;
+        }
 
         .list {
             display: flex;
@@ -29,5 +34,37 @@
                 }
             }
         }
+    }
+}
+
+@media (
+max-width: 768px
+) {
+    .list {
+        display: none !important;
+    }
+
+    .burgerBtn {
+        display: block !important;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+
+        z-index: 1;
+    }
+
+    .open {
+        position: fixed;
+        inset: 0;
+
+        background-color: #242B33;
+
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        overflow-y: auto;
+        /*padding: 80px 20px 20px;*/
     }
 }
